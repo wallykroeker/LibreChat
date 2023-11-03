@@ -34,6 +34,7 @@ function Login() {
             {localize(getLoginError(error))}
           </div>
         )}
+        {/****************************        
         <LoginForm onSubmit={login} />
         {startupConfig?.registrationEnabled && (
           <p className="my-4 text-center text-sm font-light text-gray-700">
@@ -80,6 +81,7 @@ function Login() {
             </div>
           </>
         )}
+        ***********************/}
         {startupConfig?.openidLoginEnabled && startupConfig?.socialLoginEnabled && (
           <>
             <div className="mt-2 flex gap-x-2">
