@@ -37,7 +37,7 @@ services:
       - api
     restart: always
     volumes:
-      - /home/dev/LibreChat/letsencrypt/:/etc/nginx/ssl/
+      - /home/dev/certsTestaichat/:/etc/nginx/ssl/
   mongodb:
     container_name: chat-mongodb
     # ports:  # Uncomment this to access mongodb from outside docker, not safe in deployment
